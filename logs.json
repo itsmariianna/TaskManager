@@ -1,0 +1,40 @@
+[
+    {
+        "event": "logout",
+        "username": "name@gmail.com",
+        "timestamp": "2024-12-11T17:54:40.536427"
+    },
+    {
+        "event": "register",
+        "username": "name@gmail.com",
+        "timestamp": "2024-12-11T17:56:43.012789"
+    },
+    {
+        "event": "register",
+        "username": "vivi@gmail.com",
+        "timestamp": "2024-12-11T18:13:33.209018"
+    },
+    {
+        "event": "login",
+        "username": "vivi@gmail.com",
+        "timestamp": "2024-12-11T18:13:40.785369",
+        "status": "success"
+    },
+    {
+        "event": "login",
+        "username": "asa",
+        "timestamp": "2024-12-11T18:18:56.235484",
+        "status": "failed"
+    },
+    {
+        "event": "register",
+        "username": "name12@gmail.com",
+        "timestamp": "2024-12-11T18:19:18.871715"
+    },
+    {
+        "event": "login",
+        "username": "name12@gmail.com",
+        "timestamp": "2024-12-11T18:19:25.466961",
+        "status": "success"
+    }
+]

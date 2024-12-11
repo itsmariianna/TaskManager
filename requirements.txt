@@ -1,0 +1,8 @@
+fastapi
+pydantic
+aiofiles
+passlib
+python-dotenv
+jinja2
+oauthlib
+uvicorn

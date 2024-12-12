@@ -42,7 +42,8 @@ def user_exists(email: str):
 def add_user(name: str, email: str, password: str):
     if user_exists(email):
         raise HTTPException(status_code=400, detail="User with this email already exists!")
-    
+    if len(password) < 6:
+        raise HTTPException(status_code=400, detail="Password must be at least 6 characters long!")
     users = read_users_data()
     hashed_password = pwd_context.hash(password)
     users[email] = {
